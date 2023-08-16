@@ -4,8 +4,9 @@ AUTHOR = "JFrog LTD <luism@jfrog.com>"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE.md;md5=1e486b3d16485847635c786d2b7bd32a"
 
-SRC_URI[md5sum] = "bf8f76b70de869b167a739d75f7b46dd"
-SRC_URI[sha256sum] = "11ed86b8f6ddf83d48a8a2a8688c2b24b7a391b3d7dd7a3dd2cde7650b11a955"
+SRC_URI = "https://files.pythonhosted.org/packages/9a/ec/325a14043fb447e16122b6595df88e4af72681388ba11516fa20712c8e66/conan-2.0.9.tar.gz"
+SRC_URI[md5sum] = "0ab9036680e4dfd82a44e5544e1ddbc0"
+SRC_URI[sha256sum] = "c54fde1f0629c2eb51de8636c5272fc919f9e70994c579df04620bca0a479bb4"
 
 inherit setuptools3 python3-dir pypi update-alternatives
 
