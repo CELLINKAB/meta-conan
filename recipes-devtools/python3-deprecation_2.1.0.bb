@@ -13,6 +13,8 @@ RDEPENDS:${PN} = "\
 
 DEPENDS:class-native = "\
     ${PYTHON_PN}-packaging-native \
+    python3-setuptools-native \
+    python3-wheel-native \
 "
 
 inherit setuptools3 python3-dir pypi
